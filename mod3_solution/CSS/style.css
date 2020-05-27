@@ -1,0 +1,51 @@
+body{
+  font-size:20px;
+  background-color:darkslategrey;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar.navbar-default {
+  background-color:grey;
+  border-radius:0;
+  border: 1px solid black;
+  }
+  .navbar-default .navbar-brand {
+    color: indigo;
+    font-size: 40px;
+  }
+  .navbar-default .navbar-toggle.collapsed {
+    border-color: grey;
+  }
+  .navbar-default .navbar-toggle.collapsed .icon-bar {
+    background-color: grey;
+  }
+   /* .navbar-default .navbar-toggle:hover .icon-bar, */
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: rgb(164, 214, 210);
+  }
+  
+  #navbar-menu li {
+    border: 1px solid black;
+  }
+  
+  h2 {
+    margin-bottom: 30px;
+    color: dodgerblue;
+  }
+  h3{
+    font-size: 30px;
+    color: darkmagenta;
+  }
+  
+  div.section {
+    background-color: aqua;
+    padding: 5px 20px 15px 20px;
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    #navbar-menu {
+      background-color: lawngreen;
+    }
+  }
+   
